@@ -11,7 +11,7 @@ public class GithubCicdActionsApplication {
 	@GetMapping("/welcome")
    public String welcome()
    {
-	   return "welcome to javatechie ! ";
+	   return "welcome to javadtechie ! ";
    }
 	public static void main(String[] args) {
 		SpringApplication.run(GithubCicdActionsApplication.class, args);
